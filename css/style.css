@@ -4,7 +4,7 @@
 &subset=cyrillic-ext 
 */
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
-@import url("https://fonts.googleapis.com/css?family=League+Spartan:300,400,500");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,600,600italic,700");
 *,
 *::before,
 *::after {
@@ -48,23 +48,74 @@ body {
 }
 
 html {
-  font-size: 32px;
+  font-size: 16px;
 }
 
 body {
   line-height: 1;
-  font-family: "League Spartan", sans-serif;
-  color: #161515;
-  background: #fff;
+  font-family: "Inter", sans-serif;
+  color: #403f3d;
+  background: #e1d4c9;
 }
 
 .wrapper {
   min-height: 100%;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 [class*=__container] {
   margin: 0px auto;
-  max-width: 1170px;
+  max-width: 1390px;
   padding: 0px 15px;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.enjoy__content {
+  padding: 100px 100px 120px 100px;
+  border-radius: 40px;
+  background: url("../assets/mainpage/favorite-coffee/img/coffee.jpeg") 0 0/cover no-repeat;
+}
+.enjoy__offer {
+  max-width: 530px;
+}
+.enjoy__title {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 105%;
+  color: #e1d4c9;
+}
+.enjoy__title:not(:last-child) {
+  margin-bottom: 40px;
+}
+.enjoy__title-selected {
+  font-style: italic;
+  color: #b0907a;
+}
+.enjoy__text {
+  color: #e1d4c9;
+  line-height: 150%;
+}
+.enjoy__text:not(:last-child) {
+  margin-bottom: 60px;
+}
+.enjoy__button {
+  color: rgb(64, 63, 61);
+  font-weight: 600;
+  line-height: 150%;
+  text-align: center;
+  padding: 20px 78px 20px 78px;
+  background-color: rgb(225, 212, 201);
+  border-radius: 100px;
 }

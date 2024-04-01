@@ -55,8 +55,8 @@ body {
   &__content {
     padding: 100px 100px 100px 100px;
     border-radius: 40px;
-    background: url('../assets/mainpage/favorite-coffee/img/coffee.jpeg') 0 45% /
-      cover no-repeat;
+    background: url('../assets/mainpage/favorite-coffee/img/coffee.jpeg') 50%
+      45% / cover no-repeat;
   }
 
   //.enjoy__offer
@@ -72,6 +72,7 @@ body {
     font-weight: 600;
     line-height: 105%;
     color: #e1d4c9;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     &:not(:last-child) {
       margin-bottom: 40px;
     }

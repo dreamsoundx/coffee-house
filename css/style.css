@@ -83,9 +83,9 @@ body {
 }
 
 .enjoy__content {
-  padding: 100px 100px 120px 100px;
+  padding: 100px 100px 100px 100px;
   border-radius: 40px;
-  background: url("../assets/mainpage/favorite-coffee/img/coffee.jpeg") 0 0/cover no-repeat;
+  background: url("../assets/mainpage/favorite-coffee/img/coffee.jpeg") 0 45%/cover no-repeat;
 }
 .enjoy__offer {
   max-width: 530px;
@@ -108,9 +108,10 @@ body {
   line-height: 150%;
 }
 .enjoy__text:not(:last-child) {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .enjoy__button {
+  display: inline-block;
   color: rgb(64, 63, 61);
   font-weight: 600;
   line-height: 150%;

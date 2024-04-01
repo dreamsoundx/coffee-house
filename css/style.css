@@ -100,7 +100,7 @@ body {
 .enjoy__title:not(:last-child) {
   margin-bottom: 40px;
 }
-.enjoy__title-selected {
+.enjoy__selected-title {
   font-style: italic;
   color: #b0907a;
 }

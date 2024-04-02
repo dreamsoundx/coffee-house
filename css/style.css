@@ -82,36 +82,36 @@ body {
           flex: 1 1 auto;
 }
 
-.enjoy__content {
+.offer__content {
   padding: 100px 100px 100px 100px;
   border-radius: 40px;
   background: url("../assets/mainpage/favorite-coffee/img/coffee.jpeg") 50% 45%/cover no-repeat;
 }
-.enjoy__offer {
+.offer__body {
   max-width: 530px;
 }
-.enjoy__title {
+.offer__title {
   font-size: 72px;
   font-weight: 600;
   line-height: 105%;
   color: #e1d4c9;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-.enjoy__title:not(:last-child) {
+.offer__title:not(:last-child) {
   margin-bottom: 40px;
 }
-.enjoy__selected-title {
+.offer__selected-title {
   font-style: italic;
   color: #b0907a;
 }
-.enjoy__text {
+.offer__text {
   color: #e1d4c9;
   line-height: 150%;
 }
-.enjoy__text:not(:last-child) {
+.offer__text:not(:last-child) {
   margin-bottom: 40px;
 }
-.enjoy__button {
+.offer__button {
   display: inline-block;
   color: rgb(64, 63, 61);
   font-weight: 600;

@@ -44,13 +44,13 @@ body {
 .main {
   flex: 1 1 auto;
 }
-.enjoy {
-  // .enjoy__container
+.offer {
+  // .offer__container
 
   &__container {
   }
 
-  // .enjoy__content
+  // .offer__content
 
   &__content {
     padding: 100px 100px 100px 100px;
@@ -59,13 +59,13 @@ body {
       45% / cover no-repeat;
   }
 
-  //.enjoy__offer
+  //.offer__body
 
-  &__offer {
+  &__body {
     max-width: 530px;
   }
 
-  // .enjoy__title
+  // .offer__title
 
   &__title {
     font-size: 72px;
@@ -77,13 +77,13 @@ body {
       margin-bottom: 40px;
     }
   }
-  // .enjoy__title-selected
+  // .offer__selected-title
 
   &__selected-title {
     font-style: italic;
     color: #b0907a;
   }
-  // .enjoy__text
+  // .offer__text
 
   &__text {
     color: #e1d4c9;
@@ -93,7 +93,7 @@ body {
     }
   }
 
-  // .enjoy__button
+  // .offer__button
 
   &__button {
     display: inline-block;

@@ -129,3 +129,12 @@ body {
   background-color: rgb(225, 212, 201);
   border-radius: 100px;
 }
+
+.about__content {
+  padding: 50px 0px 50px 0px;
+}
+.about__title {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 125%;
+}

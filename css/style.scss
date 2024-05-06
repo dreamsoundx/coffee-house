@@ -32,13 +32,6 @@ body {
   // .titles__selected
 }
 
-.button {
-  // .button__title
-
-  &__title {
-  }
-}
-
 .header {
 }
 .main {
@@ -106,6 +99,49 @@ body {
     padding: 20px 78px 20px 78px;
     background-color: rgb(225, 212, 201);
     border-radius: 100px;
+  }
+}
+
+.about {
+  // .about__container
+
+  &__container {
+  }
+
+  // .about__content
+
+  &__content {
+    padding: 50px 0px 50px 0px;
+  }
+
+  // .about__title
+
+  &__title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 125%;
+  }
+
+  // .about__items
+
+  &__items {
+  }
+
+  // .about__item
+
+  &__item {
+  }
+}
+
+.item-about {
+  // .item-about__image
+
+  &__image {
+  }
+
+  // .item-about__item
+
+  &__item {
   }
 }
 

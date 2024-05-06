@@ -88,6 +88,13 @@ body {
   background: url("../assets/mainpage/favorite-coffee/img/coffee.jpeg") 50% 45%/cover no-repeat;
 }
 .offer__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   max-width: 530px;
 }
 .offer__title {
@@ -112,7 +119,8 @@ body {
   margin-bottom: 40px;
 }
 .offer__button {
-  display: inline-block;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   color: rgb(64, 63, 61);
   font-weight: 600;
   line-height: 150%;

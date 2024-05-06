@@ -62,6 +62,8 @@ body {
   //.offer__body
 
   &__body {
+    display: flex;
+    flex-direction: column;
     max-width: 530px;
   }
 
@@ -96,7 +98,7 @@ body {
   // .offer__button
 
   &__button {
-    display: inline-block;
+    align-self: flex-start;
     color: rgb(64, 63, 61);
     font-weight: 600;
     line-height: 150%;

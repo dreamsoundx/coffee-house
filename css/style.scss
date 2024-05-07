@@ -29,7 +29,15 @@ body {
 }
 
 .titles {
-  // .titles__selected
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 125%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.selected-titles {
+  font-style: italic;
+  color: #b0907a;
 }
 
 .header {
@@ -117,14 +125,28 @@ body {
   // .about__title
 
   &__title {
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 125%;
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+
+  // .about__selected-title
+  &__selected-title {
   }
 
   // .about__items
 
   &__items {
+  }
+
+  // .about__left
+
+  &__left {
+  }
+
+  // .about__right
+
+  &__right {
   }
 
   // .about__item
